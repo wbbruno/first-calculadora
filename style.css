@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+#cont{
+    margin: 80px;
+
+    
+
+}
+#numero1, #numero2{
+    height: 2rem;
+    
+    background-color:black;
+    color: white;
+    font-size: 1.5rem;
+    -webkit-appearance: none  ;
+}
+input:hover{
+    border: solid rgba(0, 0, 0, 0.118);
+    background-color: rgba(128, 128, 128, 0.522);
+      
+}
+input{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 7px;
+    margin: 10px;
+    
+}
+#resultado{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: #98f4f764;
+    width: 19rem;
+    border: solid #98f4f746;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.419);
+}
+h1{
+    margin-left: 90px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
